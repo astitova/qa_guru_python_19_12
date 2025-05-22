@@ -35,7 +35,7 @@ def browser_options(request):
     options.capabilities.update(selenoid_capabilities)
 
     selenoid_login = os.getenv("SELENOID_LOGIN")
-    selenoid_pass = os.getenv("SELENOID_PASS")
+    selenoid_pass = os.getenv("SELENOID_PASSWORD")
     selenoid_url = os.getenv("SELENOID_URL")
 
     driver = webdriver.Remote(
