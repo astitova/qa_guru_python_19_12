@@ -1,12 +1,7 @@
-from email.policy import default
-from random import choice
-from unittest.mock import DEFAULT
-
 import pytest
 from selene import browser
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-from urllib3 import request
 
 from utils import attach
 
